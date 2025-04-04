@@ -1,0 +1,33 @@
+{
+  "name": "unit4.workshop.reservations.prisma",
+  "version": "1.0.0",
+  "description": "This activity guides you through building a simple CRUD API using Prisma and Express. It requires a basic understanding of relational database schemas, how to translate them into the equivalent Prisma schemas, and how to perform CRUD operations with Prisma Client.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19awburris88/Unit4.Workshop.Reservations.Prisma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19awburris88/Unit4.Workshop.Reservations.Prisma/issues"
+  },
+  "homepage": "https://github.com/19awburris88/Unit4.Workshop.Reservations.Prisma#readme",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.5.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
